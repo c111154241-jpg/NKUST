@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1782288263019534127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8709384563851965603}
+  - component: {fileID: 1403880224945496335}
+  - component: {fileID: 8376751845687598828}
+  - component: {fileID: 4240072394669934380}
+  - component: {fileID: 4581126652849536651}
+  - component: {fileID: 4207407608572871210}
+  m_Layer: 0
+  m_Name: CPR GameManage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8709384563851965603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782288263019534127}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.012011391, y: 0.04315498, z: 0.33093917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1403880224945496335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782288263019534127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50e112b0569f2547a6fd6be45d85618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  TimeText: {fileID: 0}
+  Menu: {fileID: 0}
+  CPRCollider: {fileID: 0}
+  shoulder: {fileID: 8376751845687598828}
+  Test: {fileID: 4240072394669934380}
+  CPRSlider: {fileID: 4581126652849536651}
+  AED: {fileID: 4207407608572871210}
+  course: 1
+--- !u!114 &8376751845687598828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782288263019534127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed78f042bfac01740a55c74724e48d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  course1: {fileID: 0}
+  RightShoulder: {fileID: 0}
+  LeftShoulder: {fileID: 0}
+  TextCount: {fileID: 0}
+  Right: 0
+  Left: 0
+  Count: 0
+  CountBool: 0
+--- !u!114 &4240072394669934380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782288263019534127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b647a8cd572d1e54e91ebe3af7b47783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  course2: {fileID: 0}
+  push: {fileID: 0}
+  pushVirtual: {fileID: 0}
+  testText: {fileID: 0}
+  pushText: {fileID: 0}
+  flagBool: 0
+  elapsedTime: 0
+  elapsedTimeBool: 0
+  CPRGameManage: {fileID: 1403880224945496335}
+--- !u!114 &4581126652849536651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782288263019534127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a2b41343026424e99332be0fafaddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  course3: {fileID: 0}
+  ScoreText: {fileID: 0}
+  timerText: {fileID: 0}
+  Slider: {fileID: 0}
+  UpSurface: {fileID: 0}
+  DownSurface: {fileID: 0}
+  PokeCPR: {fileID: 0}
+  flag: 0
+--- !u!114 &4207407608572871210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782288263019534127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2713525bde421a345815cd9457a855d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CPRGameManage: {fileID: 1403880224945496335}
+  AEDImage1: {fileID: 0}
+  AEDImage2: {fileID: 0}
+  course4: {fileID: 0}
+  RightCollider: {fileID: 0}
+  LeftCollider: {fileID: 0}
+  AEDRight: {fileID: 0}
+  AEDLeft: {fileID: 0}
+  flag: 0

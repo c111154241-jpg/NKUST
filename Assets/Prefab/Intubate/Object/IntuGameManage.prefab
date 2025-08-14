@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &535892192170648714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5593808304791708950}
+  - component: {fileID: 7877868470051155574}
+  - component: {fileID: 4961581908223937581}
+  - component: {fileID: 5218750742617712835}
+  - component: {fileID: 7308254966463716239}
+  m_Layer: 0
+  m_Name: TTSWitService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5593808304791708950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535892192170648714}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8315131908076259164}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7877868470051155574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535892192170648714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b3124b830442d45b9f357ff99b152f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _events:
+    OnClipCreated:
+      m_PersistentCalls:
+        m_Calls: []
+    OnClipUnloaded:
+      m_PersistentCalls:
+        m_Calls: []
+    WebRequest:
+      OnRequestBegin:
+        m_PersistentCalls:
+          m_Calls: []
+      OnRequestCancel:
+        m_PersistentCalls:
+          m_Calls: []
+      OnRequestError:
+        m_PersistentCalls:
+          m_Calls: []
+      OnRequestFirstResponse:
+        m_PersistentCalls:
+          m_Calls: []
+      OnRequestReady:
+        m_PersistentCalls:
+          m_Calls: []
+      OnRequestComplete:
+        m_PersistentCalls:
+          m_Calls: []
+    Stream:
+      OnStreamBegin:
+        m_PersistentCalls:
+          m_Calls: []
+      OnStreamReady:
+        m_PersistentCalls:
+          m_Calls: []
+      OnStreamClipUpdate:
+        m_PersistentCalls:
+          m_Calls: []
+      OnStreamComplete:
+        m_PersistentCalls:
+          m_Calls: []
+      OnStreamCancel:
+        m_PersistentCalls:
+          m_Calls: []
+      OnStreamError:
+        m_PersistentCalls:
+          m_Calls: []
+    Download:
+      OnDownloadBegin:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDownloadSuccess:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDownloadCancel:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDownloadError:
+        m_PersistentCalls:
+          m_Calls: []
+  RequestSettings:
+    _configuration: {fileID: 11400000, guid: e0ab59448d54bb44084c91ae25c6ac26, type: 2}
+    audioType: 1
+    audioStream: 1
+    useEvents: 1
+  _presetVoiceSettings:
+  - SettingsId: WIT$BRITISH BUTLER
+    PrependedText: 
+    AppendedText: 
+    voice: wit$British Butler
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CAEL
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cael
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CAM
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cam
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CARL
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Carl
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CARTOON BABY
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cartoon Baby
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CARTOON KID
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cartoon Kid
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CARTOON VILLAIN
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cartoon Villain
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CHARLIE
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Charlie
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$COCKNEY ACCENT
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cockney Accent
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CODY
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cody
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$COLIN
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Colin
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$CONNOR
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Connor
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$COOPER
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Cooper
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$DISAFFECTED
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Disaffected
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$HOLLYWOOD
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Hollywood
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$KENYAN ACCENT
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Kenyan Accent
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$OVERCONFIDENT
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Overconfident
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$PIRATE
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Pirate
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$PROSPECTOR
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Prospector
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$RAILEY
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Railey
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$REBECCA
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Rebecca
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$REMI
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Remi
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$ROSIE
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Rosie
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$RUBIE
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Rubie
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$SOUTHERN ACCENT
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Southern Accent
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$SURFER
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Surfer
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$TRENDY
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Trendy
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$VAMPIRE
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Vampire
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$WHIMSICAL
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Whimsical
+    style: default
+    speed: 100
+    pitch: 100
+  - SettingsId: WIT$WIZARD
+    PrependedText: 
+    AppendedText: 
+    voice: wit$Wizard
+    style: default
+    speed: 100
+    pitch: 100
+--- !u!114 &4961581908223937581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535892192170648714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d60dcb6d02034b4b96284db469db5e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClipLimit: 0
+  ClipCapacity: 5
+  RamLimit: 1
+  RamCapacity: 3600
+--- !u!114 &5218750742617712835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535892192170648714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ffdd015bcb8ea41bb96f19a723bf7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _diskPath: TTS/
+  _defaultSettings:
+    DiskCacheLocation: 0
+    StreamFromDisk: 0
+    StreamBufferLength: 5
+  _events:
+    OnStreamBegin:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStreamReady:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStreamClipUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStreamComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStreamCancel:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStreamError:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &7308254966463716239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535892192170648714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f6cedd5ecfc3b46aedeaec2ca367fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _webSocketProvider: {fileID: 0}
+  _topicId: 
+--- !u!1 &8290987303232850986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8315131908076259164}
+  - component: {fileID: 3922202926290893500}
+  m_Layer: 0
+  m_Name: IntuGameManage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8315131908076259164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8290987303232850986}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.458, y: 0.485, z: 0.838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5593808304791708950}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3922202926290893500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8290987303232850986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6642c94dc6fc9d248b6fa3b853116739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeText: {fileID: 0}
+  Menu: {fileID: 0}
+  mainCamera: {fileID: 0}
